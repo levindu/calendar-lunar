@@ -1,27 +1,29 @@
 ;;; calendar-lunar.el --- calendar for Chinese lunar
 
-;; Copyright (C) 2004  Free Software Foundation, Inc.
+;; Copyright (C) 2016  Free Software Foundation, Inc.
 
-;; Author: Charles Wang  for wcy-chinese-calendar.el
-;;         Milton Wu(wulei) for chinese-calendar.el (miltonwulei@163.com)
-;;         Levin Du for the current version (zslevin@gmail.com)
-;;
-;; Keywords: calendar, i18n
+;; Author: Levin Du <zslevin@gmail.com>
+;; URL: https://github.com/levindu/calendar-lunar
+;; Version: 1.0
+;; Package-Requires: (names s (emacs "24"))
+;; Keywords: calendar i18n
 
-;; This file is free software; you can redistribute it and/or modify
+;; calenar-lunar is based on the work of
+;;  - Charles Wang  for wcy-chinese-calendar.el
+;;  - Milton Wu(wulei) for chinese-calendar.el (miltonwulei@163.com)
+
+;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
-;; the Free Software Foundation; either version 2, or (at your option)
-;; any later version.
+;; the Free Software Foundation, either version 3 of the License, or
+;; (at your option) any later version.
 
-;; This file is distributed in the hope that it will be useful,
+;; This program is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
 
 ;; You should have received a copy of the GNU General Public License
-;; along with GNU Emacs; see the file COPYING.  If not, write to
-;; the Free Software Foundation, Inc., 59 Temple Place - Suite 330,
-;; Boston, MA 02111-1307, USA.
+;; along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 ;;; Commentary:
 
@@ -31,6 +33,7 @@
 ;;    (add-to-path 'load-path "path/where/to/calendar-lunar"
 ;;    (require 'calendar-lunar)
 ;;
+
 ;;; Code:
 
 ;; * Requires
