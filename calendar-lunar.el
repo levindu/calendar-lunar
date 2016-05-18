@@ -5,7 +5,7 @@
 ;; Author: Levin Du <zslevin@gmail.com>
 ;; URL: https://github.com/levindu/calendar-lunar
 ;; Version: 1.0
-;; Package-Requires: (names s (emacs "24"))
+;; Package-Requires: ((names "20151201.0") (s "1.8.0") (emacs "24"))
 ;; Keywords: calendar i18n
 
 ;; calenar-lunar is based on the work of
